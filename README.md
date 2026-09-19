@@ -16,7 +16,7 @@ This dashboard is **not yet complete**. Data cleaning and the data model are in 
 | File | Description |
 |---|---|
 | `Raw_data_sales_Analysis.xlsx` | Original, unprocessed sales order export |
-| `cleaned_sales_data.xlsx` | Cleaned dataset, ready for modeling and analysis |
+| `Cleaned data.xlsx` | Cleaned dataset, ready for modeling and analysis |
 | `Sales_analysis_Dashboard.pbix` | Power BI dashboard file (data model + report) |
 
 ---
@@ -37,7 +37,7 @@ The raw export had several data quality issues that were fixed in `cleaned_sales
 - **Removed duplicate/invalid records** — duplicate `Order_ID` entries were removed.
 - **Standardized data types** — dates, prices, quantities, and percentages were cast to consistent types for Power BI modeling.
 
-> ℹ️ Row count dropped from the raw export to the cleaned file as a result of de-duplication — see the two files for the exact before/after counts.
+> ℹ️ Raw export had 530 rows with 30 duplicate Order_IDs. After de-duplication the cleaned dataset contains 500 unique orders with no nulls. — see the two files for the exact before/after counts.
 
 ---
 
