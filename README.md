@@ -29,7 +29,7 @@ The dataset contains individual sales order records with the following fields:
 
 ### Data Cleaning Performed
 
-The raw export had several data quality issues that were fixed in `cleaned_sales_data.xlsx`:
+The raw export had several data quality issues that were fixed in `Cleaned data.xlsx`:
 
 - **Fixed header row** — the raw file's actual column headers were sitting in the first data row instead of the header row, so columns initially loaded as generic `Column1, Column2…`.
 - **Split a combined column** — `Region` and `Channel` were merged into a single `Region|Channel` field (e.g. `West|Online`) and have been separated into two clean columns.
@@ -75,7 +75,7 @@ The `.pbix` file uses a star-schema-style model with the following tables:
 
 1. Clone or download this repository.
 2. Open `Sales_analysis_Dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free) to explore the report and data model.
-3. Open `cleaned_sales_data.xlsx` or `Raw_data_sales_Analysis.xlsx` in Excel to review the underlying data and cleaning steps.
+3. Open `Cleaned data.xlsx` or `Raw_data_sales_Analysis.xlsx` in Excel to review the underlying data and cleaning steps.
 
 ---
 
