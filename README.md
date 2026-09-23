@@ -56,10 +56,10 @@ The `.pbix` file uses a star-schema-style model with the following tables:
 
 | Page | Status | Contents |
 |---|---|---|
-| Page 1 | ✅ In progress | KPI summary card |
-| Page 2 | ✅ Mostly built | Main dashboard — KPI card, slicers/filters, trend line chart, bar chart, donut chart, 100% stacked column chart |
-| Page 3 | ✅ In progress | Breakdown table and 100% stacked bar chart |
-| Page 4 | 🔲 Not started | Currently placeholder shapes/textboxes only — layout not yet designed |
+|  | ✅ Overview | KPI summary card |
+| Sales | ✅ Mostly built | Main dashboard — KPI card, slicers/filters, trend line chart, bar chart, donut chart, 100% stacked column chart |
+| Performance | ✅ In progress | Breakdown table and 100% stacked bar chart |
+| Products & Returns | 🔲 Not started | Currently placeholder shapes/textboxes only — layout not yet designed |
 
 ---
 
@@ -82,7 +82,6 @@ The `.pbix` file uses a star-schema-style model with the following tables:
 ## 📝 What's Left To Do
 
 - [ ] Finish designing Page 4
-- [ ] Add page titles/navigation instead of default "Page 1–4" names
 - [ ] Add more DAX measures (e.g. YoY growth, average order value, return rate)
 - [ ] Polish formatting, color theme, and tooltips across all pages
 - [ ] Add dashboard screenshots to this README once complete
